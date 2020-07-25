@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ags.cordabootcamp.StateTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-07-24T06:24:01" hostname="Aniruddhas-MBP" time="0.019">
+  <properties/>
+  <testcase name="tokenStateHasIssuerOwnerAndAmountParamsOfCorrectTypeInConstructor" classname="com.ags.cordabootcamp.StateTests" time="0.002"/>
+  <testcase name="tokenStateHasGettersForIssuerOwnerAndAmount" classname="com.ags.cordabootcamp.StateTests" time="0.007"/>
+  <testcase name="tokenStateImplementsContractState" classname="com.ags.cordabootcamp.StateTests" time="0.001"/>
+  <testcase name="tokenStateHasTwoParticipantsTheIssuerAndTheOwner" classname="com.ags.cordabootcamp.StateTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
