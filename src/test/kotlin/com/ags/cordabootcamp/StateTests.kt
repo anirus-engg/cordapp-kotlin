@@ -9,8 +9,8 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class StateTests {
-    var alice: Party = TestIdentity(CordaX500Name("Alice", "", "GB")).party
-    var bob: Party = TestIdentity(CordaX500Name("Bob", "", "GB")).party
+    var alice:Party = TestIdentity(CordaX500Name("Alice", "", "GB")).party
+    var bob:Party = TestIdentity(CordaX500Name("Bob", "", "GB")).party
 
 /*    @Test
     fun tokenStateHasIssuerOwnerAndAmountParamsOfCorrectTypeInConstructor() {

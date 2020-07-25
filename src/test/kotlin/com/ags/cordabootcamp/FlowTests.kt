@@ -14,9 +14,9 @@ import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class FlowTests {
-    var network: MockNetwork? = null
-    var nodeA: StartedMockNode? = null
-    var nodeB: StartedMockNode? = null
+    var network:MockNetwork? = null
+    var nodeA:StartedMockNode? = null
+    var nodeB:StartedMockNode? = null
 
     @Before
     fun setup() {
@@ -36,7 +36,7 @@ class FlowTests {
 /*    @Test
     fun transactionConstructedByFlowUsesTheCorrectNotary() {
         var flow = TokenIssueFlowInitiator(nodeB.info.legalIdentities[0], 99)
-        var future: CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
+        var future:CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
         network.runNetwork()
 
         var signedTransaction = future.get()
@@ -62,7 +62,7 @@ class FlowTests {
     @Test
     fun transactionConstructedByFlowHasOneIssueCommand() {
         val flow = TokenIssueFlowInitiator(nodeB.info.legalIdentities[0], 99)
-        val future: CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
+        val future:CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
         network.runNetwork()
 
         var signedTransaction = future.get()
@@ -75,7 +75,7 @@ class FlowTests {
     @Test
     fun transactionConstructedByFlowHasOneCommandWithTheIssuerAndTheOwnerAsASigners() {
         val flow = TokenIssueFlowInitiator(nodeB.info.legalIdentities[0], 99)
-        val future: CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
+        val future:CordaFuture<SignedTransaction> = nodeA.startFlow(flow)
         network.runNetwork()
 
         var signedTransaction = future.get()

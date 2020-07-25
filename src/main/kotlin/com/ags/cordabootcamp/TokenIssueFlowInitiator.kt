@@ -11,7 +11,7 @@ import net.corda.core.utilities.ProgressTracker
 
 
 class TokenIssueFlowInitiator(val owner: Party, val amount: Int): FlowLogic<SignedTransaction>() {
-    override val progressTracker: ProgressTracker = ProgressTracker()
+    override val progressTracker:ProgressTracker = ProgressTracker()
 
     override fun call(): SignedTransaction {
         // We choose our transaction's notary (the notary prevents double-spends).

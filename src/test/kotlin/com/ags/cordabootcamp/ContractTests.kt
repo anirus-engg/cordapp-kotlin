@@ -8,7 +8,6 @@ import net.corda.testing.core.DummyCommandData
 import net.corda.testing.core.TestIdentity
 import net.corda.testing.node.MockServices
 import org.junit.Test
-import sun.tools.jstat.Token
 
 class ContractTests {
 /*    val alice = TestIdentity(CordaX500Name("Alice", "", "GB"))
