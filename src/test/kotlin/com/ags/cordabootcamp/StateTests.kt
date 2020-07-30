@@ -12,7 +12,7 @@ class StateTests {
     var alice:Party = TestIdentity(CordaX500Name("Alice", "", "GB")).party
     var bob:Party = TestIdentity(CordaX500Name("Bob", "", "GB")).party
 
-/*    @Test
+    @Test
     fun tokenStateHasIssuerOwnerAndAmountParamsOfCorrectTypeInConstructor() {
         TokenState(alice, bob, 1)
     }
@@ -36,5 +36,5 @@ class StateTests {
         assertEquals(2, tokenState.participants.size)
         assertTrue(tokenState.participants.contains(alice))
         assertTrue(tokenState.participants.contains(bob))
-    }*/
+    }
 }
